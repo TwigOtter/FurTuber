@@ -1,4 +1,17 @@
 {
+  "audio": {
+    "enabled": true,
+    "deviceLabel": null,
+    "sensitivity": 3.0,
+    "bandDecay": 0.005,
+    "silenceThreshold": 0.015,
+    "blendWeight": 1.0,
+    "blendDecay": 0.04,
+    "filter": {
+      "minCutoff": 1.0,
+      "beta": 0.01
+    }
+  },
   "camera": {
     "position": [0, 0.75, 1.1],
     "lookAt": [0, 0.70, 0],
