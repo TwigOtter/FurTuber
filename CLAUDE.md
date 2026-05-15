@@ -13,7 +13,7 @@ See DESIGN.md for full architecture and milestone definitions.
 
 ## Current milestone
 
-**M2 complete** (2026-04-24): Full 52 blendshapes + one-euro smoothing + head rotation. Face is expressively mirroring the user. Config-driven setup. See DESIGN.md §7 for M3–M5.
+**M3 in progress**: Arm tracking (upper/lower), hand tracking (wrist + 16 finger joints), and audio-driven mouth responsiveness (amplitude loosens filter + boosts scores). See DESIGN.md §7 for remaining M3 items and M4–M5.
 
 ## Dev workflow
 
@@ -55,6 +55,13 @@ Test avatar: `Twig-dotter-ARKit.vrm` (0.86 m tall otter).
 - Has all 52 ARKit blendshapes as direct custom expressions — no lookup table needed
 - Needs `vrm.scene.rotation.y = Math.PI` to face the camera
 - Camera framing for this avatar: `position(0, 0.75, 0.8)`, `lookAt(0, 0.65, 0)`, FOV 35
+
+## Code style
+
+- **Every function and class gets a JSDoc comment** — one-line minimum describing what it does. This helps manual debugging and code navigation.
+- Inline comments for non-obvious logic: hidden constraints, workarounds, or anything that would surprise a reader.
+- No comments that just restate what the code already says (e.g. `// increment counter` above `i++`).
+- If a file exceeds ~500 lines, it's a signal to discuss splitting it into smaller classes/modules.
 
 ## Known issues / watch-outs
 
