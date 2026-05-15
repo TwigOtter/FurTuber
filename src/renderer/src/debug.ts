@@ -137,7 +137,7 @@ document.head.appendChild(style);
 const header = document.createElement("div");
 header.id = "header";
 header.innerHTML = `
-  <h1>OttTuber Debug</h1>
+  <h1>FurTuber Debug</h1>
   <span id="status">waiting…</span>
   <span id="shortcut">Ctrl+Shift+D to toggle</span>
 `;

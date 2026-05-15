@@ -1,4 +1,4 @@
-# OttTuber — Design Document
+# FurTuber — Design Document
 
 **Status:** Initial design, pre-implementation
 **Author:** Twig

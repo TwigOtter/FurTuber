@@ -1,5 +1,5 @@
 {
-	"name": "otttuber",
+	"name": "furtuber",
 	"version": "0.1.0",
 	"description": "VRM 1.x avatar renderer with MediaPipe tracking for streaming",
 	"main": "./out/main/index.js",

@@ -1,4 +1,4 @@
-# OttTuber — Claude context
+# FurTuber — Claude context
 
 VRM 1.x avatar renderer for streaming. Electron window (transparent, frameless) + three-vrm + MediaPipe face/hand tracking. Replaces VSeeFace for VRM 1.x users.
 

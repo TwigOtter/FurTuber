@@ -9,7 +9,7 @@ function createDebugWindow(): void {
 	debugWin = new BrowserWindow({
 		width: 480,
 		height: 900,
-		title: "OttTuber Debug",
+		title: "FurTuber Debug",
 		backgroundColor: "#0d1117",
 		webPreferences: {
 			preload: join(__dirname, "../preload/index.js"),
